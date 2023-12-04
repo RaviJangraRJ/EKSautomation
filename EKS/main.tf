@@ -32,7 +32,7 @@ module "vpc" {
 module "eks" {
   source = "terraform-aws-modules/eks/aws"
 
-  cluster_name    = "RJ-eks-cluster"
+  cluster_name    = "rj-eks-cluster"
   cluster_version = "1.27"
 
   cluster_endpoint_public_access = true
